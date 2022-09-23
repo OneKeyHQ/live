@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { Button, Card } from '@onekeyhq/ui-components';
 import { KnownDevice, SearchDevice } from '@onekeyfe/hd-core';
